@@ -48,7 +48,7 @@ class ReCaptchaComponent extends React.PureComponent<IProps> {
   }
 
   render() {
-    return <View style={{width: 1, height: 1}}>
+    return <View style={{width: 1, height: 1, backgroundColor: 'transparent'}}>
       <WebView
         ref={(ref) => {
           this._webViewRef = ref
