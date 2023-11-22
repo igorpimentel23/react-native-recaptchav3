@@ -39,7 +39,7 @@ class ReCaptchaComponent extends React.PureComponent {
         }
     }
     render() {
-        return React.createElement(react_native_1.View, { style: { width: 1, height: 1, backgroundColor: 'transparent' } },
+        return React.createElement(react_native_1.View, { style: { width: 1, height: 1, backgroundColor: 'transparent', position: 'absolute', zIndex: -1 } },
             React.createElement(react_native_webview_1.WebView, { ref: (ref) => {
                     this._webViewRef = ref;
                 }, javaScriptEnabled: true, androidHardwareAccelerationDisabled: true, originWhitelist: ['*'], automaticallyAdjustContentInsets: true, mixedContentMode: 'always', injectedJavaScript: patchPostMessageJsCode, source: {
