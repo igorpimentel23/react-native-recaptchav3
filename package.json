@@ -32,6 +32,6 @@
     "react-native": "*"
   },
   "dependencies": {
-    "react-native-webview": "^13.2.2"
+    "react-native-webview": "13.2.2"
   }
 }
