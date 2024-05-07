@@ -10,6 +10,6 @@ type IProps = {
 declare class ReCaptchaComponent extends React.PureComponent<IProps> {
     private _webViewRef;
     refreshToken(): void;
-    render(): JSX.Element;
+    render(): React.JSX.Element;
 }
 export default ReCaptchaComponent;
